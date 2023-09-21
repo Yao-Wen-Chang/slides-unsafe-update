@@ -1,0 +1,33 @@
+# LaTeX build files
+*.aux
+*.bbl
+*.blg
+*.dvi
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.nav
+*.snm
+# LaTeX distribution files
+*.ps
+*.dvi
+
+# Compiled LaTeX files
+*.spl
+
+# Generated files
+/_minted-*/
+
+# Temporary files
+*.swp
+*.swo
+
+# macOS system files
+.DS_Store
+
+# TeXShop specific files
+*.backup
+*.bak
