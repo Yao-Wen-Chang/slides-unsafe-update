@@ -1,5 +1,5 @@
 \documentclass{beamer}
-
+\usepackage{graphicx}
 % Choose a theme
 \usetheme{default}
 
@@ -9,15 +9,16 @@
 \date{\today}
 
 \setbeamertemplate{frametitle}[default][center]
-
+\addtobeamertemplate{headline}{}{\vskip-0.5em}
 \begin{document}
 % Title slide
 \include{title}
 % Content slides
+\include{background}
 \include{objective}
 \include{outline}
-\include{backgound}
-\include{research}
+\include{related_works}
+\include{research_methods}
 \include{summary}
 \include{reference}
 \end{document}

@@ -31,3 +31,6 @@
 # TeXShop specific files
 *.backup
 *.bak
+
+# Image
+*.png
