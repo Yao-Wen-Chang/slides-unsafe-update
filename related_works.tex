@@ -1,13 +1,29 @@
 \section{RELATED WORKS}
 \begin{frame}{RELATED WORKS}
-  \begin{block}{Regex}
-    Introduce papers....
-  \end{block}
-  \begin{block}{Machine Learning}
-    Introduce papers....
-  \end{block}
-  \begin{block}{CI / CD Based}
-    Introduce papers....
-  \end{block}
+  \only<1>{ 
+    \begin{block}{Static Analysis - Bandit \cite{bandit}}
+      \begin{itemize}
+        \item Parse python source code (AST)
+        \item Pre-defined rules to match the tree node relationship
+      \end{itemize}
+    \end{block}
+    \begin{block}{Machine Learning - Anomaly Detection}
+      \begin{figure}[htbp]
+        \includegraphics[height=3cm, width=5cm]{./screenshot/Screenshot from 2023-09-27 18-11-59.png}
+        \caption{Anomaly Detection Image source:~\cite{garrett2019detecting}.}
+      \end{figure}
+    \end{block}
+  }
+  
+  \only<2>{ 
+    \begin{block}{CI / CD Based: in-toto framework~\cite{torres2019toto}}
+      \begin{itemize}
+        \item supply chain layout integrity
+        \item step authentication
+        \item implementation transparency
+        \item graceful degradation of security properties
+      \end{itemize}
+    \end{block}
+  }
 \end{frame}
 
